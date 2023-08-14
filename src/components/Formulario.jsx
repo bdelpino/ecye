@@ -11,7 +11,7 @@ function Formulario ({ setAlert })      {
 
                                 const validarFormulario = (e) =>    {
 
-                                    
+                                                                        e.preventDefault()
 
                                                                         if (password == "" || confirmpassword == "" || nombre == "" || email=="")   {
                                                                                                                                                         setAlert    ({
